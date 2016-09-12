@@ -1,0 +1,22 @@
+server {
+    listen 80 ;
+    listen [::]:80 ipv6only=on;
+
+    root /home/eaquino/practice/maria;
+    index index.html index.htm;
+
+    server_name www.mariaprac.com;
+
+    location / {
+    }
+    location /images/ {
+    }
+    location /display_assets/ {
+    }
+    location /css/ {
+    }
+    location /html/ {
+    }
+    location /modules/ {
+    }
+}
